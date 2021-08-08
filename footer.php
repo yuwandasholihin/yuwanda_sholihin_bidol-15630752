@@ -2,7 +2,7 @@
 
   <footer>
       <div class="container">
-          <span>&copy; 2020 - FTI UNISKA</span>
+          <span>&copy; Persemaian Permanen Banjarbaru & BPDAS-HL BARITO </span>
       </div>
   </footer>
 

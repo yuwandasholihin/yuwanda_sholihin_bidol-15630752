@@ -1,7 +1,17 @@
-<div class="text-center mt-5">
-  <img src="img/logo-uniska.png" width="200px" alt="UNISKA">
-  <h3 class="mt-2">Halo, selamat datang</h3>
-  <p>Materi ini mempelajari tentang <strong>CRUD</strong>
-    sederhana dengan <code>PHP + MySQLi</code>
-  </p>
+<div class="text-center">
+  <span style="width:100%">
+    <p> </P>
+    <img src="img/logo bpdas hl lengkap.png" width="500">
+  </span>
 </div>
+
+</div>
+<div class="text-center mt-2">
+
+  <h3 class="mt-2">Halo, Selamat Datang Sobat Tunas</h3>
+  <p>Web ini di tujukan untuk memudahkan sobat dalam melakukan permohonan bibit</p>
+  <p> dan</P>
+  <p> mengetahui informasi ketersediaan bibit pada Persemaian Permanen Banjarbaru</p>
+</div>
+<?php
+include "grafik.php";

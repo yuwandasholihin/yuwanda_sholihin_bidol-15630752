@@ -1,21 +1,42 @@
 <?php
+
+include
+    "header.php";
+
 error_reporting(0);
 
-include 'header.php';
-
 switch ($_GET['page']) {
-  case "home";
-    include 'home.php';
-    break;
-  case "profile";
-    include 'profile.php';
-    break;
-  case "login";
-    include "login.php";
-    break;
-  default:
-    include "home.php";
-    break;
-}
+    default:
+        include
+            "home.php";
+        break;
 
+    case "home";
+        include 'home.php';
+        break;
+
+    case "profile";
+        include 'profile.php';
+        break;
+
+    case "login";
+        include "login.php";
+        break;
+
+    case "permohonanpengunjung";
+        include "permohonanpengunjung.php";
+        break;
+
+    case "grafik";
+        include "grafik.php";
+        break;
+
+    case "undangundang";
+        include "undangundang.php";
+        break;
+
+    case "jenisbibit";
+        include "jenisbibit.php";
+        break;
+}
 include 'footer.php';

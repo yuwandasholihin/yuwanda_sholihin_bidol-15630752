@@ -15,7 +15,7 @@ if (!isset($_SESSION['username'])) {
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
-    <title>Praktikum 2020</title>
+    <title>Persemaian Permanen</title>
     <style>
         body {
             margin-bottom: 6em;
@@ -42,10 +42,14 @@ if (!isset($_SESSION['username'])) {
 
 <body>
     <div class="container-fluid">
-        <h3 class="mt-4 mb-4">Aplikasi Data Mahasiswa</h3>
+        <h3 class="mt-4 mb-4">Aplikasi Distribusi Bibit </h3>
         <div class="row">
             <div class="col-md-3 col-sm-12 mb-4">
-                <?php include 'nav.php'; ?>
+
+                <?php
+                include 'nav.php';
+                ?>
+
             </div>
 
             <div class="col-md-9 col-sm-12">
@@ -59,39 +63,37 @@ if (!isset($_SESSION['username'])) {
                         include "dashboard.php";
                         break;
 
-                        // mahasiswa    
-                    case "mahasiswa-show";
-                        include "../mahasiswa/mahasiswa_show.php";
+                        // permohonan    
+                    case "permohonan-show";
+                        include "../permohonan/permohonan_show.php";
+                        break;
+                    case "permohonan-tambah";
+                        include "../permohonan/permohonan_tambah.php";
+                        break;
+                    case "permohonan-edit";
+                        include "../permohonan/permohonan_edit.php";
+                        break;
+                    case "permohonan-hapus";
+                        include "../permohonan/permohonan_hapus.php";
+                        break;
+                    case "permohonan-update";
+                        include "../permohonan/permohonan_update.php";
                         break;
 
-                    case "mahasiswa-add";
-                        include "../mahasiswa/mahasiswa_add.php";
+                        // bibit 
+                    case "bibit-tambah";
+                        include "../bibit/bibit_tambah.php";
+                        break;
+                    case "bibit-show";
+                        include "../bibit/bibit_show.php";
+                        break;
+                    case "bibit-kurang";
+                        include "../bibit/bibit_pengurangan.php";
                         break;
 
-                    case "mahasiswa-edit";
-                        include "../mahasiswa/mahasiswa_edit.php";
-                        break;
-
-                    case "mahasiswa-delete";
-                        include "../mahasiswa/mahasiswa_delete.php";
-                        break;
-
-                    case "mahasiswa-update";
-                        include "../mahasiswa/mahasiswa_update.php";
-                        break;
-
-                        // user  
-                    case "user-add";
-                        include "../user/user_add.php";
-                        break;
-                    case "user-show";
-                        include "../user/user_show.php";
-                        break;
-                    case "user-edit";
-                        include "../user/user_edit.php";
-                        break;
-                    case "user-update";
-                        include "../user/user_update.php";
+                        //grafik
+                    case "grafik";
+                        include "../grafik.php";
                         break;
 
                     default:
@@ -106,7 +108,7 @@ if (!isset($_SESSION['username'])) {
 
     <footer>
         <div class="container ">
-            <span>&copy; 2020 - FTI UNISKA</span>
+            <span>&copy; Persemaian Permanen Banjarbaru & BPDAS-HL BARITO 2021</span>
         </div>
     </footer>
 

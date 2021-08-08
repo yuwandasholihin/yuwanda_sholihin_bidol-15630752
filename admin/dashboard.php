@@ -5,22 +5,17 @@
     <div class="card-body">
         <p>Selamat Datang <strong><i><?php echo $_SESSION['username'] ?></i></strong>,</p>
         <p>
-            <strong>Materi ini mempelajari CRUD basic dengan <code>PHP + MySQLi</code> </strong><br><br>
+            <strong> aplikasi Pengelolaan Data Distribusi Bibit Pohon Di Persemaian Permanen Banjarbaru Oleh BPDAS-HL BARITO </strong><br><br>
 
-            Apa saja yang kita pelajari ?
+            Pengelolaan yang dapat di lakukan di aplikasi ini berupa :
         <ul>
-            <li>Membuat tampilan menggunakan Bootstrap 4</li>
-            <li>Pemroraman dasar <code>PHP</code></li>
-            <li>Proses CRUD <code>create, read, update, delete</code></li>
-            <li>Halaman dinamis dengan <code>Methode GET</code></li>
-            <li>Login User dengan password <code>HASH</code></li>
-            <li>Register User</li>
-            <li>Fungsi simpan data</li>
-            <li>Fungsi edit data </li>
-            <li>Fungsi hapus data</li>
-            <li>Fungsi cari data</li>
-            <li>Fungsi pagination</li>
-            <li>Fungsi cetak data dengan <code>FPDF</code></li>
+            <li>Pengajuan permohonan Bibit Pohon</li>
+            <li>Pemantauan data pemohon Bibit</li>
+            <li>Perubahan data Pemohon Bibit</code></li>
+            <li>Pencetakan Laporan Distribusi Bibit Bulanan </li>
+            <li>Pencetakan Laporan Distribusi Bibit Tahunan</li>
+            <li>Grafik Permohonan Bibit</li>
+            <li>Jenis dan Jumlah Ketersediaan Bibit Pada Persemaian</li>
         </ul>
         </p>
     </div>

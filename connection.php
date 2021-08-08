@@ -1,6 +1,6 @@
 <?php
 $databaseHost     = "localhost";
-$databaseName     = "kampus";
+$databaseName     = "skripsi";
 $databaseUsername = "root";
 $databasePassword = "";
 
